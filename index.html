@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trưng Bày Bánh Kẹo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff7f50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 20px;
+        }
+        .item {
+            background-color: #fff0f5;
+            border: 1px solid #ffcccc;
+            border-radius: 8px;
+            width: 200px;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s;
+        }
+        .item:hover {
+            transform: scale(1.05);
+        }
+        img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .item h3 {
+            margin: 10px 0 5px 0;
+        }
+        .item p {
+            margin: 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Trưng Bày Bánh Kẹo Ngon</h1>
+</header>
+
+<div class="gallery">
+    <div class="item">
+        <img src="https://via.placeholder.com/200x150?text=Banh+Socola" alt="Bánh Socola">
+        <h3>Bánh Socola</h3>
+        <p>Ngọt ngào, thơm ngon.</p>
+    </div>
+    <div class="item">
+        <img src="https://via.placeholder.com/200x150?text=Banh+Quy" alt="Bánh Quy">
+        <h3>Bánh Quy</h3>
+        <p>Giòn rụm, dễ ăn.</p>
+    </div>
+    <div class="item">
+        <img src="https://via.placeholder.com/200x150?text=Keo+Dua" alt="Kẹo Dừa">
+        <h3>Kẹo Dừa</h3>
+        <p>Ngọt béo, đặc sản.</p>
+    </div>
+    <div class="item">
+        <img src="https://via.placeholder.com/200x150?text=Keo+Fruit" alt="Kẹo Trái Cây">
+        <h3>Kẹo Trái Cây</h3>
+        <p>Hương vị trái cây tươi ngon.</p>
+    </div>
+</div>
+
+</body>
+</html>
